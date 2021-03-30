@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+#gnav ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#gnav li {
+  float: left;
+  width: 200px;
+  list-style-type: none;
+  background-color: #fff;
+  color: #000;
+  flex-grow: 1;
+  text-align: center;
+}
+
+li ＋li {
+  border-left: 1px solid #000;
+}
+
+nav ul li#nav_home a {
+  background-image: url(../CUPCAKE IMAGE/home.png);
+}
+
+nav ul li#nav_menu a {
+  background-image: url(../CUPCAKE IMAGE/menu.png);
+}
+
+nav ul li#nav_ko a {
+  background-image: url(../CUPCAKE IMAGE/kodawari.png);
+}
+
+nav ul li#nav_shop a {
+  background-image: url(../CUPCAKE IMAGE/shop.png);
+}
+
+header {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.breadcrumbs_list li {
+  display: inline-block;
+  margin-left: 12px;
+  padding-left: 16px;
+
+}
+
+.breadcrumbs_list li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  background:none;
+}
+
+.toptext {
+  text-align: center;
+  margin-top: 80px;
+  line-height: 50px;
+}
+
+div#main h1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+div#main.cake {
+  margin-bottom: 100px;
+}
+
+div#main h2.kodawari {
+  font-color: blown;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#main {
+  zoom: 1;
+}
+
+#main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ko h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.menu {
+  width: 400;
+  overflow:hidden;
+  _zoom: 1;
+  border: 1px solid DDDDDD;
+  padding: 15px;
+}
+
+#main.img {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  float: left;
+}
+
+.menu.text {
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  _zoom: 1;
+  text-align: right;
+}
+
+#ko.kodawari {
+  line-height: 50px;
+}
+
+#ko2 {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+div#cake h1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+div.menu {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 300px;
+  margin-top: 50px;
+}
+
+div.shop {
+  margin-left: 190px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+div.shop figure {
+  margin-bottom: 100px;
+}
+
+
+footer {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+}
